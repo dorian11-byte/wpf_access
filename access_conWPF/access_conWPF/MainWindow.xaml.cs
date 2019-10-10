@@ -23,6 +23,7 @@ namespace access_conWPF
         public MainWindow()
         {
             InitializeComponent();
+            con = new OleDbConnection();
         }
 
         private void InitializeComponent()
